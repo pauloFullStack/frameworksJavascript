@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Consulta médica",
+      "day": "1 Mar 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Encontro na Escola",
+      "day": "2 Mar 3:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Compras de casa",
+      "day": "3 Mar 4:30pm",
+      "reminder": false
+    },
+    {
+      "text": "Teste",
+      "day": "3 abril 4:30pm",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}

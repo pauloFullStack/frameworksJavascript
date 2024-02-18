@@ -1,0 +1,17 @@
+{
+    "development": {
+      "username": "user_paulo",
+      "password": "Davi91445129!",
+      "database": "codelibrary",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "user_paulo",
+      "password": "Davi91445129!",
+      "database": "codelibrary",
+      "host": "localhost",
+      "dialect": "mysql"
+    }
+  }
+  

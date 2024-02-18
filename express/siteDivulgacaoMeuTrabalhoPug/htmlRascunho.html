@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .accordion-item {
+            margin-bottom: 10px;
+        }
+
+        .accordion-input {
+            display: none;
+        }
+
+        .accordion-label {
+            display: block;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .accordion-content-open {
+            background-color: #0a0c1f;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom: solid 1px #000;
+            color: #fff;
+            padding: 1.5rem;
+        }
+
+        .accordion-input:checked+.accordion-label+.accordion-content {
+            max-height: 1000px;
+            /* Ajuste este valor conforme necessário */
+        }
+
+        body {
+            background-color: #f9f9f9 !important;
+        }
+    </style>
+    <div style="padding: 20px;">
+        <div id="accordio-1" class="accordion-item" close="0">
+            <input type="checkbox" class="accordion-input" id="t1">
+            <label class="accordion-label" for="t1">TITULO</label>
+            <div class="accordion-content">
+                CORPO
+            </div>
+        </div>
+        
+        <!-- <div id="accordio-2" class="accordion-item" close="false">
+            <input type="checkbox" class="accordion-input" id="t2">
+            <label class="accordion-label" for="t2">${element.title}</label>
+            <div class="accordion-content">
+                ${element.content}
+            </div>
+        </div> -->
+    </div>
+
+    <script>
+        const accordionId = document.querySelector('#accordio-1');
+
+        let count = 0;
+        accordionId.addEventListener('click', (event) => {
+
+            console.log(count)
+            if (count === 0) {
+                const divPai = document.querySelector(`#${event.currentTarget.getAttribute('id')}`);
+
+                let elementoFilho;
+                if (divPai.getElementsByClassName('accordion-content')[0]) {
+                    elementoFilho = divPai.getElementsByClassName('accordion-content')[0];
+                } else {
+                    elementoFilho = divPai.getElementsByClassName('accordion-content-open')[0];
+                }
+
+
+                if (divPai.getAttribute('close') === '0') {
+
+                    elementoFilho.classList.remove('accordion-content');
+                    elementoFilho.classList.add('accordion-content-open');
+                    divPai.setAttribute('close', '1');
+                } else {
+                    elementoFilho.classList.remove('accordion-content-open');
+                    elementoFilho.classList.add('accordion-content');
+                    divPai.setAttribute('close', '0');
+                }
+            }
+
+            if (count === 1)
+                this.count = 0;
+            else
+                count++;
+
+
+        });
+    </script>
+
+    <script src="./public//js/script.js"></script>
+
+
+
+</body>
+
+</html>

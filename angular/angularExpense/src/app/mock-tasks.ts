@@ -1,0 +1,22 @@
+import { Task } from './Task';
+
+export const TASKS: Task[] = [
+  {
+    id: 1,
+    text: 'Consulta médica',
+    day: '5 de Maio as 2:30pm',
+    reminder: true,
+  },
+  {
+    id: 2,
+    text: 'Encontro na Escola',
+    day: '5 de Maio as 3:30pm',
+    reminder: true,
+  },
+  {
+    id: 3,
+    text: 'Compras de Alimentos',
+    day: '5 de Maio as 4:30pm',
+    reminder: false,
+  },
+];

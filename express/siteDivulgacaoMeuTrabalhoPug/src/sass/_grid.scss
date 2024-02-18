@@ -1,0 +1,116 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* Define 3 colunas iguais */
+    grid-template-rows: auto;
+    /* Define linhas automáticas */
+    /* gap: 5px; */
+    /* Espaço entre as divs */
+}
+
+.quantity-columns-1 {
+    /* Ocupa 1 colunas do grid */
+    grid-column: span 1;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-2 {
+    /* Ocupa 2 colunas do grid */
+    grid-column: span 2;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-3 {
+    /* Ocupa 3 colunas do grid */
+    grid-column: span 3;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-center-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; /* Centraliza o grupo de colunas */
+    gap: var(--columns-grid); 
+}
+
+.quantity-columns-4 {
+    /* Ocupa 4 colunas do grid */
+    grid-column: span 4;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-5 {
+    /* Ocupa 5 colunas do grid */
+    grid-column: span 5;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-6 {
+    /* Ocupa 6 colunas do grid */
+    grid-column: span 6;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-7 {
+    /* Ocupa 7 colunas do grid */
+    grid-column: span 7;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-8 {
+    /* Ocupa 8 colunas do grid */
+    grid-column: span 8;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-9 {
+    /* Ocupa 9 colunas do grid */
+    grid-column: span 9;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-10 {
+    /* Ocupa 10 colunas do grid */
+    grid-column: span 10;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-11 {
+    /* Ocupa 11 colunas do grid */
+    grid-column: span 11;
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-12 {
+    /* Ocupa 12 colunas do grid */
+    grid-column: span 12;
+    padding: .5rem;
+}
+
+
+
+
+
+.group-of-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; /* Centraliza o grupo de colunas */
+    gap: var(--columns-grid);
+    padding: var(--columns-grid);
+}
+
+.quantity-columns-center-3 {
+    /* Ocupa 3 colunas do grid */
+    grid-column: span 3;
+}
+
+.quantity-columns-center-4 {
+    /* Ocupa 4 colunas do grid */
+    grid-column: span 4;
+}
+
+.quantity-columns-center-6 {
+    /* Ocupa 6 colunas do grid */
+    grid-column: span 6;
+}

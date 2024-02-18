@@ -1,0 +1,201 @@
+@media only screen and (max-width: 991px) {
+    .div-login {
+        width: 40%;
+        padding: 1rem;
+
+        border: 2px solid transparent;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media only screen and (max-width: 831px) {
+    .col-mobile-12 {
+        grid-column: span 12;
+        /* Ocupa 2 colunas do grid */
+        padding: var(--columns-grid);
+    }
+
+    .col-mobile-6 {
+        grid-column: span 6;
+        /* Ocupa 2 colunas do grid */
+        padding: var(--columns-grid);
+    }
+
+    .col-mobile-1 {
+        grid-column: span 1;
+        padding: var(--columns-grid);
+    }
+
+    .bi-list {
+        cursor: pointer;
+        background-color: var(--color-black);
+        display: block;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    .quantity-columns-12 {
+        /* Ocupa 12 colunas do grid */
+        grid-column: span 12;
+        padding: .1rem;
+    }
+
+    .menu>div {
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menu-visible>div {
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--color-white);
+        height: 2.5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+        background: transparent;
+        z-index: 2;
+    }
+
+
+    .header-style::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .offcanvas {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        /* Define a posição inicial do offcanvas fora da tela */
+        width: 300px;
+        height: 100%;
+        background: var(--color-primary);
+        background: var(--linear-gradient);
+        background: var(--webkit-linear-gradient);
+        background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+        color: var(--color-white) !important;
+        transition: all 0.3s ease;
+        z-index: 3;
+    }
+
+    .div-login {
+        width: 60%;
+        padding: 1rem;
+
+        border: 2px solid transparent;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media only screen and (max-width: 637px) {}
+
+@media only screen and (max-width: 774px) {}
+
+@media only screen and (max-width: 630px) {}
+
+@media only screen and (max-width: 530px) {
+
+    // .table-responsive {
+    //     overflow-y: hidden;
+    //   }
+
+    //   .table thead,
+    //   .table tbody,
+    //   .table tfoot {
+    //     display: block;
+    //   }
+
+    //   .table-bordered th,
+    //   .table-bordered td {
+    //     border: 0;
+    //   }
+
+    //   .table-striped tbody tr {
+    //     background-color: transparent;
+    //   }
+
+    .col-mobile-6 {
+        grid-column: span 12;
+        padding: .1rem;
+    }
+
+    .offcanvas {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        /* Define a posição inicial do offcanvas fora da tela */
+        width: 100%;
+        height: 100%;
+        background: var(--color-primary);
+        background: var(--linear-gradient);
+        background: var(--webkit-linear-gradient);
+        background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+        color: var(--color-white) !important;
+        transition: all 0.3s ease;
+        z-index: 3;
+    }
+
+    .btn-send-email {
+        border: none;
+        background-color: var(--color-white);
+        border: 1px solid var(--color-primary);
+        padding: .5rem;
+        border-radius: 5px;
+        color: var(--color-primary);
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .btn-send-email:hover {
+        border: none;
+        background-color: var(--color-primary);
+        border: 1px solid var(--color-primary);
+        padding: .5rem;
+        border-radius: 5px;
+        color: var(--color-white);
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .div-login {
+        width: 100%;
+        padding: 1rem;
+
+        border: 2px solid transparent;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media only screen and (max-width: 430px) {}
+
+@media only screen and (max-width: 330px) {}
+
+@media only screen and (max-width: 230px) {}
+
+@media only screen and (max-width: 130px) {}

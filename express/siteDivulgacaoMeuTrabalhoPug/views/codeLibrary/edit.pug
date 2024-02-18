@@ -1,0 +1,76 @@
+extends ./layout
+
+block content
+
+    style.
+        
+        .card-primary-library {
+            /* box-shadow: 2px 2px 4px 2px rgba(1, 1, 1, 0.2); */
+            border: 0 solid transparent;
+            background: transparent;
+            padding: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            border-radius: 1rem;
+            color: var(--color-black);
+            cursor: pointer;
+        }
+
+
+    main
+      section
+        input(type="hidden" id="getPreviousRouteId" value="0")
+        input(type="hidden" id="getCurrentRouteId" value="0")
+        input(type="hidden" id="routeLoading" value="library/edit/section")
+        input(type="hidden" id="routeCurrentMenu")
+        .grid-container.section
+          .quantity-columns-1.col-mobile-1
+            .to-go-back.flex-row-style.menuEdit.card-primary-library(redirect='library/edit/section' typeRedirect='section' isSelected='true')
+              .paragraph-card.flex-row-left-style
+                svg.bi.bi-archive.color-primary(xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' viewbox='0 0 16 16')
+                  path(d='M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5')
+          .quantity-columns-1.col-mobile-1
+            .to-go-back.flex-row-style.menuEdit.card-primary-library(redirect='library/edit/page' typeRedirect='page')
+              .paragraph-card.flex-row-left-style                
+                svg.bi.bi-file-code.color-primary(xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' viewbox='0 0 16 16')
+                  path(d='M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708z')
+                  path(d='M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1')
+          .quantity-columns-10.col-mobile-1
+            .to-go-back.flex-row-right-style.menuEdit.card-primary-library(redirect='library/api/logout')
+              .paragraph-card.flex-row-left-style                
+                svg.bi.bi-box-arrow-in-right.color-primary(xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' viewbox='0 0 16 16')
+                  path(fill-rule='evenodd' d='M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z')
+                  path(fill-rule='evenodd' d='M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z')
+  
+
+          .quantity-columns-12
+            hr
+
+        .grid-container.section
+          .quantity-columns-1.col-mobile-1
+            .to-go-back.flex-row-style.subMenuEdit.card-primary-library(redirect='library/edit/section/list' typeRedirect='list' isselected='true')
+              .paragraph-card.flex-row-left-style
+                svg.bi.bi-card-list(xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' viewbox='0 0 16 16')
+                  path(d='M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z')
+                  path(d='M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0')
+          .quantity-columns-1.col-mobile-1
+            .to-go-back.flex-row-style.subMenuEdit.card-primary-library(redirect='library/edit/section/add' typeRedirect='add' )
+              .paragraph-card.flex-row-left-style
+                svg.bi.bi-plus-lg(xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' viewbox='0 0 16 16')
+                  path(fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2')            
+          .quantity-columns-12#root
+
+      div                     
+        // Modal
+        #modal.modal
+          #modal-content.modal-content
+            .modal-body-center
+              .div-main-modal
+        // Modal Loadin
+        #modal-loading.modal-loading
+          #modal-content-loading.modal-content-loading
+            .modal-body-center
+              .div-main-modal
+                .spinner-loading(role='status')
+                  span.sr-only
+      

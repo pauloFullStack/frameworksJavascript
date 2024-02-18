@@ -1,0 +1,85 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+    height: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background: var(--color-primary);
+    background: var(--linear-gradient);
+    background: var(--webkit-linear-gradient);
+    background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+    z-index: 2;
+}
+
+.menu-library {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+    height: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background: var(--color-primary);
+    background: var(--linear-gradient);
+    background: var(--webkit-linear-gradient);
+    background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+    z-index: 2;
+}
+
+.menu-library>div {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-visible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+    height: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background: var(--color-primary);
+    background: var(--linear-gradient);
+    background: var(--webkit-linear-gradient);
+    background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+    z-index: 2;
+}
+
+.menu>div {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-visible>div {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.img-logo {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.link-menu {
+    font-weight: 100;
+    border-bottom: solid 1px transparent;
+}

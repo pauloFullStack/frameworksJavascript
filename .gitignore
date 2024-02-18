@@ -1,0 +1,26 @@
+# Ignore files at the root of the repository
+estudos/frameworkSvelte/svelte/.DS_Store
+estudos/frameworkSvelte/svelte/node_modules
+estudos/frameworkSvelte/svelte/build
+estudos/frameworkSvelte/svelte/.svelte-kit
+estudos/frameworkSvelte/svelte/package
+estudos/frameworkSvelte/svelte/.env
+estudos/frameworkSvelte/svelte/.env.*
+estudos/frameworkSvelte/svelte/!.env.example
+estudos/frameworkSvelte/svelte/.vercel
+estudos/frameworkSvelte/svelte/.output
+estudos/frameworkSvelte/svelte/vite.config.js.timestamp-*
+estudos/frameworkSvelte/svelte/vite.config.ts.timestamp-*
+
+express/siteDivulgacaoMeuTrabalhoPug/.DS_Store
+express/siteDivulgacaoMeuTrabalhoPug/node_modules
+express/siteDivulgacaoMeuTrabalhoPug/build
+express/siteDivulgacaoMeuTrabalhoPug/.svelte-kit
+express/siteDivulgacaoMeuTrabalhoPug/package
+express/siteDivulgacaoMeuTrabalhoPug/.env
+express/siteDivulgacaoMeuTrabalhoPug/.env.*
+express/siteDivulgacaoMeuTrabalhoPug/!.env.example
+express/siteDivulgacaoMeuTrabalhoPug/.vercel
+express/siteDivulgacaoMeuTrabalhoPug/.output
+express/siteDivulgacaoMeuTrabalhoPug/vite.config.js.timestamp-*
+express/siteDivulgacaoMeuTrabalhoPug/vite.config.ts.timestamp-*

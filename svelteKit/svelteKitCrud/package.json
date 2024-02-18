@@ -1,0 +1,27 @@
+{
+	"name": "sveltekitcrud",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"sequelize": "^6.29.3",
+		"sequelize-cli": "^6.6.0",
+		"uuid": "^9.0.0",
+		"mysql2": "^3.3.3",
+		"bcryptjs": "^2.4.3",
+		"crypto": "^1.0.1"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
+}

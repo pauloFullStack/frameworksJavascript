@@ -1,0 +1,139 @@
+.btn-send-email {
+    border: none;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-primary);
+    padding: .5rem;
+    border-radius: 5px;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.btn-send-email:hover {
+    border: none;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: .5rem;
+    border-radius: 5px;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.btn-header-offcanvas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-black);
+    padding: 1rem;
+}
+
+.btn-link-offcanvas {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.btn-link-offcanvas>div {
+    color: var(--color-white);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-hover-primary {
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.btn-hover-primary:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.btn-hover-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+/* .btn-hover-white:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5rem;
+} */
+
+
+.btn-hover-danger {
+    color: var(--color-danger);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-danger);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.btn-hover-danger:hover {
+    color: var(--color-white);
+    background-color: var(--color-danger);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    border: 1px solid transparent;
+    bottom: 10px;
+    right: 0px;
+    z-index: 2;
+    opacity: 0.97;
+    margin-right: 1rem;
+    background: var(--color-primary);
+    background: var(--linear-gradient);
+    background: var(--webkit-linear-gradient);
+    background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+    padding: .4rem;
+    border-radius: 50%;
+}
+
+.span-notification-style {
+    color: var(--color-danger);
+    font-size: 12px;
+}
+
+.bi-list-site {
+    cursor: pointer;
+    /* background-color: var(--color-black); */
+    background-color: transparent !important;
+    display: none;
+}
+
+.bi-list-library {
+    cursor: pointer;
+    /* background-color: var(--color-black); */
+    background-color: transparent !important;    
+}
+
+
+.btn-menu-txt-offcanvas {
+    border: 1px solid #ffffff;
+    border-radius: .5rem;
+    padding: .2rem .5rem;
+}

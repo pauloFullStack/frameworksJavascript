@@ -1,0 +1,23 @@
+extends ./layout
+
+block content
+    main
+      input(type="hidden" id="arrayToGoBack" value="[]")
+      input(type="hidden" id="bugPositionCount" value='0')
+      h2.text-center(style="margin-top:2rem;font-style: italic") Biblioteca de códigos  
+      article(style="margin-top:2rem")#root
+        input(type="hidden" id="routeLoading" value="library/section")        
+      div                     
+        // Modal
+        #modal.modal
+          #modal-content.modal-content
+            .modal-body-center
+              .div-main-modal
+        // Modal Loadin
+        #modal-loading.modal-loading
+          #modal-content-loading.modal-content-loading
+            .modal-body-center
+              .div-main-modal
+                .spinner-loading(role='status')
+                  span.sr-only
+      

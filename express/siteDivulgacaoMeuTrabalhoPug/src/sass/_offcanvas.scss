@@ -1,0 +1,22 @@
+.offcanvas {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background: var(--color-primary);
+    background: var(--linear-gradient);
+    background: var(--webkit-linear-gradient);
+    background: -moz-linear-gradient(301deg, #5800ff 0%, #000000 80%);
+    transition: all 0.3s ease;
+    z-index: 4;
+}
+
+#closeBtn {
+    color: var(--color-white);
+}
+
+.offcanvas.open {
+    right: 0;
+}
+

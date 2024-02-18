@@ -1,0 +1,44 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='icon' href='/img/favicon.ico')
+  link(rel='stylesheet' href='/css/style.css')
+  title PauloWebDev
+  style.  
+    main {
+    padding: 0 1rem !important;
+    }
+// Arrumar essa tela para ficar responsiva no celular
+header
+  body 
+    #login
+      div(style="padding:2rem")
+        .flex-column-style#login(style='height: 80vh')
+          .div-login
+            .sub-div-login(style="color:#4b0a96;font-style: italic;font-weight: bold")
+              h3 Editor
+            .w-100
+              input#email.input-style(type='text' placeholder='Login')
+              span#emailNotification.span-notification-style
+            .w-100.mb-r-2
+              input#password.input-style(type='password' placeholder='Senha')
+              span#passwordNotification.span-notification-style
+            .w-100.text-center
+              button#apiFull.btn-hover-primary(method='POST' selectors='#email, #password' url='api/validate/user')
+                | Entrar
+    div                     
+        #modal.modal
+          #modal-content.modal-content
+            .modal-body-center
+              .div-main-modal
+        #modal-loading.modal-loading
+          #modal-content-loading.modal-content-loading
+            .modal-body-center
+              .div-main-modal
+                .spinner-loading(role='status')
+                  span.sr-only  
+
+
+script(src='/js/script.js')
+
