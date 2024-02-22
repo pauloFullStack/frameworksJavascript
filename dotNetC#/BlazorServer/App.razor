@@ -1,0 +1,27 @@
+﻿@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" >
+            @* <AuthorizeRouteView RouteData="@routeData"> *@
+                <NotAuthorized>
+                    <BlazorServer.Pages.RedirectError />
+                </NotAuthorized>
+            </AuthorizeRouteView>
+        </Found>
+        <NotFound>
+            <AuthorizeView >
+                <Authorized>
+                    <BlazorServer.Pages.PageNotFound isRedirect=true />
+                </Authorized>
+                <NotAuthorized>
+                    <BlazorServer.Pages.RedirectError />
+                </NotAuthorized>
+            </AuthorizeView>
+        </NotFound>
+    </Router>
+</CascadingAuthenticationState>
+

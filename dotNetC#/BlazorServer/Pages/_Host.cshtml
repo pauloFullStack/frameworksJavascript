@@ -1,0 +1,12 @@
+﻿@page "/"
+@namespace BlazorServer.Pages
+
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+@* <component Param-InitialState="state" type="typeof(App)" render-mode="ServerPrerendered" /> *@
+<component type="typeof(App)" render-mode="ServerPrerendered" />
