@@ -103,7 +103,7 @@ exports.sendEmail = asyncHandler(async (req, res, next) => {
         headers: {
           accept: "application/json",
           "api-key":
-            "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",
+            "API_KEY_YOU",
           "content-type": "application/json",
         },
       })
