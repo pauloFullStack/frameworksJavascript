@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseManagement.Application\ExpenseManagement.Application.csproj" />
+    <ProjectReference Include="..\ExpenseManagement.Domain\ExpenseManagement.Domain.csproj" />
+    <ProjectReference Include="..\ExpenseManagement.Infra.Data\ExpenseManagement.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

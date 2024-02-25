@@ -1,0 +1,3 @@
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Domain.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Domain.deps.json
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Domain.pdb

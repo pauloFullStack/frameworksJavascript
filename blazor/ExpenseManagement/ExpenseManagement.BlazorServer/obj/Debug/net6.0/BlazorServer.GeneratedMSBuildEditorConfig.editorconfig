@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorServer
+build_property.RootNamespace = BlazorServer
+build_property.ProjectDir = C:\Users\Paulo\source\repos\ExpenseManagement\ExpenseManagement.BlazorServer\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Paulo\source\repos\ExpenseManagement\ExpenseManagement.BlazorServer
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/Catalog/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/Category/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/Category/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/Category/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/Product/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/Category/CategoryForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhdGVnb3J5XENhdGVnb3J5Rm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/Modals/ModalConfirma.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsc1xNb2RhbENvbmZpcm1hLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/Pagination.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2luYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mxoy4q7bj7
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9s0xq2xzhp
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Paulo/source/repos/ExpenseManagement/ExpenseManagement.BlazorServer/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

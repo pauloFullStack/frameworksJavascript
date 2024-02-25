@@ -1,0 +1,9 @@
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Application.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Application.deps.json
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Application.pdb
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\AutoMapper.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\MediatR.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\MediatR.Contracts.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Domain.dll
+C:\Users\Paulo\source\repos\ExpenseManagement\publish\ExpenseManagement.Domain.pdb
